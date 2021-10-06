@@ -220,3 +220,19 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+.social i {
+  color: black;
+}
+
+@media screen and (max-width: 425px) {
+  .social i {
+    color: blue;
+  }
+  header {
+    width: 100%;
+  }
+  .nav-list {
+    width: 100%;
+  }
+}
